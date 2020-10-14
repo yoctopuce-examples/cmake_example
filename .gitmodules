@@ -1,0 +1,3 @@
+[submodule "yoctolib_cpp"]
+	path = yoctolib_cpp
+	url = https://github.com/yoctopuce/yoctolib_cpp.git
