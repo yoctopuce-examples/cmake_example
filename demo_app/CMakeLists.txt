@@ -6,8 +6,7 @@ project (Demo)
 add_executable (demo main.cpp)
 
 # Add the Sources subfolder of the Yoctopuce C++ library.
-add_subdirectory (D:/data/yoctoprod/yoctolib/v1.0/Public/cpp/Sources compiled_yoctolib)
-//add_subdirectory (/home/yocto/yoctopuce/yoctoprod/yoctolib/v1.0/Public/cpp/Sources/ compiled_yoctolib)
+add_subdirectory (../yoctolib_cpp/Sources compiled_yoctolib)
 
 # Link the executable to the Yoctopuce C++ library (YoctoLib).
 target_link_libraries (demo LINK_PUBLIC YoctoLib)
